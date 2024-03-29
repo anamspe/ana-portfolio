@@ -7,3 +7,9 @@
     @apply text-cherry-800
   }
 }
+
+@layer utilities {
+  .section-min-height {
+    min-height: calc(100vh - 60px);
+  }
+}
