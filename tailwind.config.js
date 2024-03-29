@@ -26,7 +26,7 @@ export default {
           800: "#9bafaa",
           900: "#cdd7d4",
         },
-        tyrian_purple: {
+        tyrian: {
           DEFAULT: "#5c0029",
           100: "#120008",
           200: "#250011",
@@ -38,7 +38,7 @@ export default {
           800: "#ff58a3",
           900: "#ffabd1",
         },
-        cherry_blossom_pink: {
+        cherry: {
           DEFAULT: "#edafb8",
           100: "#430f17",
           200: "#871f2e",
@@ -50,7 +50,7 @@ export default {
           800: "#f8dfe3",
           900: "#fbeff1",
         },
-        cadet_gray: {
+        cadet: {
           DEFAULT: "#7d98a1",
           100: "#181f21",
           200: "#303e42",
@@ -62,7 +62,7 @@ export default {
           800: "#cbd6d9",
           900: "#e5eaec",
         },
-        paynes_gray: {
+        paynes: {
           DEFAULT: "#5e6572",
           100: "#131417",
           200: "#26292e",
