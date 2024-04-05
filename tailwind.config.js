@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -11,7 +11,7 @@ export default {
         emoji: ['"Noto Color Emoji"', "sans-serif"],
         arima: ["Arima", "system-ui"],
         sacramento: ["Sacramento", "cursive"],
-        wellfleet: ["Wellfleet", "monospace"]
+        wellfleet: ["Wellfleet", "monospace"],
       },
       colors: {
         eerie_black: {

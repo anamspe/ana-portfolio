@@ -7,15 +7,20 @@ const Project = () => {
 
     return (
       <div key={item} className="border">
-        <h1>{project.name}</h1>
-        <p>{project.description}</p>
-        {project.website && <a href={project.website}>Live Website</a>}
-        <a href={project.repoLink}>Repo Link</a>
-        <ul>
-          {project.stack.map((tech, index) => (
-            <li key={index}>{tech}</li>
-          ))}
-        </ul>
+        <div>
+          <img src={project.img} alt="" className="w-lg h-60 rounded-3xl" />
+        </div>
+        <div>
+          <h1>{project.name}</h1>
+          <p>{project.description}</p>
+          {project.website && <a href={project.website}>Live Website</a>}
+          <a href={project.repoLink}>Repo Link</a>
+          <ul>
+            {project.stack.map((tech, index) => (
+              <li key={index}>{tech}</li>
+            ))}
+          </ul>
+        </div>
       </div>
     );
   })
