@@ -1,29 +1,55 @@
 import projects from "../assets/projects";
+import icons from "../assets/icons";
 
 const Project = () => {
-  const projectsKeys = Object.keys(projects)
-  const projectSection = projectsKeys.map(item => {
+  const projectsKeys = Object.keys(projects);
+  const projectSection = projectsKeys.map((item) => {
     const project = projects[item];
 
     return (
-      <div key={item} className="border">
-        <div>
-          <img src={project.img} alt="" className="w-lg h-60 rounded-3xl" />
+      <div key={item} className="flex p-4 gap-5">
+        <div className="w-1/3">
+          <img
+            src={project.img}
+            alt={project.name}
+            className="h-60 w-full rounded-lg m-2 border-2 border-cherry-400"
+          />
         </div>
-        <div>
-          <h1>{project.name}</h1>
-          <p>{project.description}</p>
-          {project.website && <a href={project.website}>Live Website</a>}
-          <a href={project.repoLink}>Repo Link</a>
-          <ul>
+        <div className="w-2/3">
+          <h1 className="text-2xl mb-2">{project.name}</h1>
+          <p className="mb-6">{project.description}</p>
+          {project.website && (
+            <a
+              href={project.website}
+              className="bg-tyrian hover:bg-tyrian-600 active:bg-tyrian-800 p-2 mr-2 rounded-md"
+              target="_blank"
+            >
+              Live Website
+            </a>
+          )}
+          <a
+            href={project.repoLink}
+            className="bg-tyrian hover:bg-tyrian-600 active:bg-tyrian-800 p-2 rounded-md"
+            target="_blank"
+          >
+            Repo Link
+          </a>
+          <ul className="mt-5">
             {project.stack.map((tech, index) => (
-              <li key={index}>{tech}</li>
+              <li key={index} className="display: inline-block">
+                <img
+                  className="w-10 h-10 bg-cadet-700 bg-opacity-20 mr-2 p-1 rounded"
+                  src={icons[tech.toLowerCase()]?.src}
+                  alt={icons[tech.toLowerCase()]?.alt}
+                  title={icons[tech.toLowerCase()]?.alt}
+                />
+              </li>
             ))}
           </ul>
         </div>
       </div>
     );
-  })
+  });
 
   return <div>{projectSection}</div>;
 };
