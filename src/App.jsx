@@ -8,9 +8,9 @@ const App = () => {
     <div className=" bg-eerie_black-200 min-h-screen">
       <NavBar />
       <HeroCard />
-      <hr class="mx-auto w-1/2" />
+      <hr className="mx-auto w-1/2" />
       <Projects />
-      <hr class="mx-auto w-1/2" />
+      <hr className="mx-auto w-1/2" />
       <Skills />
     </div>
   );
