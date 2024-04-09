@@ -9,10 +9,22 @@ const HeroCard = () => {
           I'm a Full Stack Software Developer based in Vancouver, Canada
         </p>
         <div className="flex my-5 py-5 items-center text-3xl gap-5">
-          <a href="https://github.com/anamspe" target="_blank" title="GitHub"><i className="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/anamspe/" target="_blank" title="LinkedIn"><i className="fa-brands fa-linkedin"></i></a>
-          <a href="http://" title="Resume"><i className="fa-solid fa-file-lines"></i></a>
-          <a href="mailto:anamspe.fr@gmail.com" target="_blank" title="email"><i className="fa-solid fa-envelope"></i></a>
+          <a href="https://github.com/anamspe" target="_blank" title="GitHub">
+            <i className="fa-brands fa-github hover:text-cherry-400 active:text-cherry-200 hover:ease-in-out transition-all duration-500"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/anamspe/"
+            target="_blank"
+            title="LinkedIn"
+          >
+            <i className="fa-brands fa-linkedin hover:text-cherry-400 active:text-cherry-200 hover:ease-in-out transition-all duration-500"></i>
+          </a>
+          <a href="http://" target="_blank" title="Resume">
+            <i className="fa-solid fa-file-lines hover:text-cherry-400 active:text-cherry-200 hover:ease-in-out transition-all duration-500"></i>
+          </a>
+          <a href="mailto:anamspe.fr@gmail.com" target="_blank" title="email">
+            <i className="fa-solid fa-envelope hover:text-cherry-400 active:text-cherry-200 hover:ease-in-out transition-all duration-500"></i>
+          </a>
         </div>
       </div>
       <div>

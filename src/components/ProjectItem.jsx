@@ -21,7 +21,7 @@ const Project = () => {
           {project.website && (
             <a
               href={project.website}
-              className="bg-tyrian hover:bg-tyrian-600 active:bg-tyrian-800 p-2 mr-2 rounded-md"
+              className="bg-tyrian hover:bg-tyrian-600 active:bg-tyrian-800 p-2 mr-2 rounded-md hover:ease-in-out transition-all duration-500"
               target="_blank"
             >
               Live Website
@@ -29,7 +29,7 @@ const Project = () => {
           )}
           <a
             href={project.repoLink}
-            className="bg-tyrian hover:bg-tyrian-600 active:bg-tyrian-800 p-2 rounded-md"
+            className="bg-tyrian hover:bg-tyrian-600 active:bg-tyrian-800 p-2 rounded-md hover:ease-in-out transition-all duration-500"
             target="_blank"
           >
             Repo Link
