@@ -6,7 +6,7 @@ const projects = {
       "The Acme Rockets landing page is an e-commerce platform for a ficticious rocket store, made entirely with HTML, Tailwind CSS and Vanilla JavaScript. It counts with a responsive design and selective dark mode, that will be remembered for next visits.",
     repoLink: "https://github.com/anamspe/acme-rockets-tailwind",
     website: "https://acmerockets-erim.onrender.com/",
-    stack: ["html", "tailwind css", "javascript"],
+    stack: ["html", "tailwindcss", "js"],
   },
   2: {
     name: "DateSync",
@@ -30,7 +30,7 @@ const projects = {
     img: "../../public/img/hagglehub-crop.png",
     description: "HaggleHub is a B2C e-commerce platform focused in selling Funko Pop collectibles. Full-Stack application that includes admin and customer interfaces depending on credentials when user logs in to the app.",
     repoLink: "https://github.com/anamspe/Hagglehub",
-    stack: ["javascript", "ejs", "node", "postgresql", "sass"]
+    stack: ["js", "ejs", "node", "postgresql", "sass"]
   },
   4: {
     name: "WeatherApp",
@@ -45,7 +45,7 @@ const projects = {
     img: "../../public/img/tinyapp-crop.png",
     description: "TinyApp is a URL manager that allows users to shorten and edit links, accessible through a user-friendly interface. Full-Stack aplication, built with Node.js and Express, it is exclusive to registered users, offering secure and efficient URL handling.",
     repoLink: "https://github.com/anamspe/tinyapp",    
-    stack: ["html", "ejs", "css", "javascript", "node", "express"]
+    stack: ["html", "ejs", "css", "js", "node", "express"]
   }
 };
 
