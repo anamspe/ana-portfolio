@@ -14,7 +14,7 @@ const projects = {
     description:
       "DateSync is the place to plan and create the best dates for you to share with friends and loved ones. Full-Stack application created with a PERN Stack that makes use of Google Locations API to serve users with suggestions for their next outing with family and friends. ",
     repoLink: "https://github.com/anamspe/datesync",
-    stack: ["react", "node", "express", "postgresql", "materialui", "sass"],
+    stack: ["react", "js", "node", "express", "postgresql", "materialui", "sass"],
   },
   3: {
     name: "HaggleHub",
@@ -28,10 +28,10 @@ const projects = {
     name: "WeatherApp",
     img: "../../public/img/weather-app-crop.png",
     description:
-      "This weather app created with the OpenWeather API allows user to search their city and check weather pertaining information, such as: weather temperature, wind speed, humidity, heat index, and sunrise and sunset times",
+      "This weather app created with the OpenWeather API allows user to search their city and check weather pertaining information, such as: weather temperature, wind speed, humidity, heat index, and sunrise and sunset times.",
     repoLink: "https://github.com/anamspe/react-temp-app",
     website: "https://elegant-macaron-6f91d4.netlify.app/",
-    stack: ["react", "css"],
+    stack: ["react", "js", "html", "css"],
   },
   5: {
     name: "TinyApp",

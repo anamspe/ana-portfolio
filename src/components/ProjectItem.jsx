@@ -32,16 +32,16 @@ const Project = () => {
             className="bg-tyrian hover:bg-tyrian-600 active:bg-tyrian-800 p-2 rounded-md hover:ease-in-out transition-all duration-500"
             target="_blank"
           >
-            Repo Link
+            Repo
           </a>
           <ul className="mt-5">
             {project.stack.map((tech, index) => (
               <li key={index} className="display: inline-block">
                 <img
-                  className="w-10 h-10 bg-cadet-700 bg-opacity-20 mr-2 p-1 rounded"
-                  src={icons[tech.toLowerCase()]?.src}
-                  alt={icons[tech.toLowerCase()]?.alt}
-                  title={icons[tech.toLowerCase()]?.alt}
+                  className="size-9 bg-cadet-700 bg-opacity-20 mr-2 p-1 rounded"
+                  src={icons[tech]?.src}
+                  alt={icons[tech]?.alt}
+                  title={icons[tech]?.alt}
                 />
               </li>
             ))}
