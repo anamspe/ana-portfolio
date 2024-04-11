@@ -28,7 +28,7 @@ const icons = {
     alt: "Express",
   },
   ejs: {
-    src: "../../public/img/ejs_icon_132422.png",
+    src: "../../img/ejs_icon_132422.png",
     alt: "ejs - Embedded JavaScript",
   },
   postgresql: {
@@ -76,7 +76,7 @@ const icons = {
     alt: "Jest",
   },
   chai: {
-    src: "../../public/img/chai-icon.png",
+    src: "../../img/chai-icon.png",
     alt: "Chai",
   },
   cypress: {
