@@ -77,6 +77,6 @@ export default {
       },
     },
   },
-  plugins: ["prettier-plugin-tailwindcss", require("tw-elements/plugin.cjs")],
+  plugins: ["prettier-plugin-tailwindcss"],
   darkMode: "class"
 };

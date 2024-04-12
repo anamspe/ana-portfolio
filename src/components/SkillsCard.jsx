@@ -1,21 +1,16 @@
-import { Ripple, Tooltip, initTWE } from "tw-elements";
-initTWE({ Ripple, Tooltip });
-
 import icons from "../assets/icons";
 
 const SkillCategory = ({ title, skills }) => {
   return (
-    <div>
-      <h2 className="ms-4 my-4"> {title} </h2>
+    <div id="skills">
+      <h2 className="ms-4 my-4 font-bold underline underline-offset-2">
+        {title}
+      </h2>
       <ul className="ms-4">
         {skills.map((skill, index) => (
           <li
             key={index}
-            className="inline-block transition duration-150 ease-in-out "
-            data-twe-toggle="tooltip"
-            data-twe-placement="bottom"
-            data-twe-ripple-init
-            data-twe-ripple-color="light"
+            className="inline-block transition-all duration-500 ease-in-out hover:opacity-70"
             title={skill.alt}
           >
             <img
