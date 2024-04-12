@@ -1,3 +1,4 @@
+import About from "./components/AboutCard";
 import HeroCard from "./components/HeroCard";
 import NavBar from "./components/NavBar";
 import Projects from "./components/ProjectsCard";
@@ -12,6 +13,8 @@ const App = () => {
       <Projects />
       <hr className="mx-auto w-1/2" />
       <Skills />
+      <hr className="mx-auto w-1/2" />
+      <About />
     </div>
   );
 };
