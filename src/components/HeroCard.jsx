@@ -1,6 +1,6 @@
 const HeroCard = () => {
   return (
-    <div className="flex gap-10 my-12 p-10 justify-center items-center">
+    <div className="flex gap-10 my-12 p-10 justify-center items-center section-min-height">
       <div className="text-base">
         <p>Welcome! My name is</p>
         <p className="text-5xl font-bold font-arima py-2">Ana Franco</p>
@@ -19,7 +19,11 @@ const HeroCard = () => {
           >
             <i className="fa-brands fa-linkedin hover:text-cherry-400 active:text-cherry-200 hover:ease-in-out transition-all duration-500"></i>
           </a>
-          <a href="http://" target="_blank" title="Resume">
+          <a
+            href="https://drive.google.com/file/d/1T9eviciaMyrbHl_fOqfhGzcNzGgRY_p3/view?usp=sharing"
+            target="_blank"
+            title="Resume"
+          >
             <i className="fa-solid fa-file-lines hover:text-cherry-400 active:text-cherry-200 hover:ease-in-out transition-all duration-500"></i>
           </a>
           <a href="mailto:anamspe.fr@gmail.com" target="_blank" title="email">
