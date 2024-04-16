@@ -9,11 +9,11 @@ const App = () => {
     <div className=" bg-eerie_black-200 min-h-screen">
       <NavBar />
       <HeroCard />
-      <hr className="mx-auto w-1/2" />
+      <hr className="mx-auto w-1/12" />
       <Projects />
-      <hr className="mx-auto w-1/2" />
+      <hr className="mx-auto w-1/12" />
       <Skills />
-      <hr className="mx-auto w-1/2" />
+      <hr className="mx-auto w-1/12" />
       <About />
     </div>
   );
