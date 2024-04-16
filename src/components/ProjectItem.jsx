@@ -1,5 +1,6 @@
 import projects from "../assets/projects";
 import icons from "../assets/icons";
+import { Tooltip } from "react-tooltip";
 
 const Project = () => {
   const projectsKeys = Object.keys(projects);
@@ -36,13 +37,20 @@ const Project = () => {
           </a>
           <ul className="mt-5">
             {project.stack.map((tech, index) => (
-              <li key={index} className="display: inline-block">
+              <li
+                key={index}
+                className="display: inline-block transition-all duration-500 ease-in-out hover:opacity-70"
+              >
                 <img
                   className="size-9 bg-cadet-700 bg-opacity-20 mr-2 p-1 rounded"
                   src={icons[tech]?.src}
                   alt={icons[tech]?.alt}
                   title={icons[tech]?.alt}
+                  data-tooltip-id="skill-tt"
+                  data-tooltip-content={icons[tech]?.alt}
+                  data-tooltip-delay-show={300}
                 />
+                <Tooltip id="skill-tt" place="bottom-start" />
               </li>
             ))}
           </ul>

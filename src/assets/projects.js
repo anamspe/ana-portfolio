@@ -20,9 +20,9 @@ const projects = {
     name: "HaggleHub",
     img: "../../img/hagglehub-crop.png",
     description:
-      "HaggleHub is a B2C e-commerce platform focused in selling Funko Pop collectibles. Full-Stack application that includes admin and customer interfaces depending on credentials when user logs in to the app.",
+      "HaggleHub is a B2C e-commerce platform focused in selling Funko Pop collectibles. Full-Stack application, with a RESTful API, that includes admin and customer interfaces depending on credentials when user logs in to the app.",
     repoLink: "https://github.com/anamspe/Hagglehub",
-    stack: ["js", "ejs", "node", "postgresql", "sass"],
+    stack: ["js", "ejs", "node", "express", "postgresql", "sass"],
   },
   4: {
     name: "WeatherApp",
