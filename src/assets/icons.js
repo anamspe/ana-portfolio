@@ -43,6 +43,10 @@ const icons = {
     src: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/sass/sass-original.svg",
     alt: "Sass",
   },
+  bootstrap: {
+    src: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/bootstrap/bootstrap-original.svg",
+    alt: "Bootstrap",
+  },
   ruby: {
     src: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/ruby/ruby-original.svg",
     alt: "Ruby",

@@ -30,17 +30,18 @@ const SkillCategory = ({ title, skills }) => {
 const Skills = () => {
   const programmingLanguages = [
     icons["js"],
-    icons["ruby"],
     icons["html"],
     icons["css"],
+    icons["ruby"],
   ];
 
   const frameworksAndLibraries = [
     icons["react"],
     icons["node"],
     icons["redux"],
-    icons["tailwindcss"],
     icons["sass"],
+    icons["tailwindcss"],
+    icons["bootstrap"],
     icons["express"],
     icons["ejs"],
     icons["jquery"],
@@ -64,10 +65,11 @@ const Skills = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto p-10" id="skills">
-      <h2 className="text-4xl mt-12 pl-32 mb-4 font-arima font-bold text-cherry">
+    <div className="max-w-7xl mx-auto p-10 place-content-center section-min-height" id="skills">
+      <h2 className="text-4xl mt-12 pl-32 font-arima font-bold text-cherry">
         Skills
       </h2>
+      <span className="mx-6 pl-32 font-wellfleet">▪ My technical abilities</span>
       <div className="flex p-10 my-10 place-content-around bg-tyrian drop-shadow-sm shadow-paynes rounded-3xl">
         <SkillCategory
           title="Programming Languages"
