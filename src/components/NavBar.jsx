@@ -3,7 +3,7 @@ const NavBar = () => {
     <div className="bg-tyrian flex justify-around sticky top-0 z-10">
       <nav className="flex" aria-label="logo">
         {/* <img src="../../img/AnaFrancoLogo.png" alt="" className="h-14"/> */}
-        <a href="/" className="font-arima font-bold text-3xl p-3">
+        <a href="#hero" className="font-arima font-bold text-3xl p-3">
           {/* <span className="text-2xl font-emoji">👩‍💻</span>  */}
           Ana Franco 
         </a>

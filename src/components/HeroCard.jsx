@@ -1,6 +1,6 @@
 const HeroCard = () => {
   return (
-    <div className="flex gap-10 my-12 p-10 justify-center items-center section-min-height">
+    <div className="flex gap-10 my-12 p-10 justify-center items-center section-min-height" id="hero">
       <div className="text-base">
         <p>Welcome! My name is</p>
         <p className="text-5xl font-bold font-arima py-2">Ana Franco</p>
