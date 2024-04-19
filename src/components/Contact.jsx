@@ -15,10 +15,10 @@ const Contact = () => {
     try {
       const templateParams = {name, email, subject, message};
       await emailjs.send(
-        import.meta.env.SERVICE_ID,
-        import.meta.env.TEMPLATE_ID,
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
         templateParams, 
-        import.meta.env.PUBLIC_KEY
+        import.meta.env.VITE_PUBLIC_KEY
       );
       console.log("Success!")
       reset();
