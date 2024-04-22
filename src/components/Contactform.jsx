@@ -69,7 +69,7 @@ const ContactForm = () => {
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)} noValidate>
-        <div className="mt-10 flex flex-col gap-4 max-w-96">
+        <div className="flex flex-col gap-4 min-w-96">
           <div className="sm:col-span-4">
             <label
               htmlFor="username"
@@ -219,7 +219,7 @@ const ContactForm = () => {
       </form>
       {alertInfo.display && (
         <div
-          className={`${alertInfo.type} px-4 py-3 my-3 max-w-96 rounded relative`}
+          className={`${alertInfo.type} px-4 py-3 my-3  rounded relative`}
           role="alert"
         >
           {alertInfo.message}
