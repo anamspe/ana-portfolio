@@ -18,7 +18,7 @@ const About = () => {
           many different ways, but coding was always something I wanted to get
           back to. Now, armed with a full-stack web development diploma from
           Lighthouse Labs, I'm eager to expand my skills as a developer, and
-          also make use of skills from my past works to create innovative
+          also make use of skills acquired over time to create innovative
           products and engaging user experiences.
         </p>
         <div>
