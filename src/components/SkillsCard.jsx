@@ -65,12 +65,17 @@ const Skills = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto p-10 place-content-center section-min-height" id="skills">
+    <div
+      className="max-w-7xl mx-auto my-5 p-10 content-center scroll-mt-20 section-min-height"
+      id="skills"
+    >
       <h2 className="text-4xl mt-12 pl-32 font-arima font-bold text-cherry">
         Skills
       </h2>
-      <span className="mx-6 pl-32 font-wellfleet">▪ My technical abilities</span>
-      <div className="flex p-10 my-10 place-content-around bg-tyrian drop-shadow-sm shadow-paynes rounded-3xl">
+      <span className="mx-6 pl-32 font-wellfleet">
+        ▪ My technical abilities
+      </span>
+      <div className="flex p-10 my-16 place-content-around bg-tyrian drop-shadow-sm shadow-paynes rounded-3xl">
         <SkillCategory
           title="Programming Languages"
           skills={programmingLanguages}

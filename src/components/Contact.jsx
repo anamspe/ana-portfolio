@@ -2,7 +2,7 @@ import ContactForm from "./Contactform";
 
 const Contact = () => {
   return (
-    <div className="max-w-5xl mx-auto p-10" id="contact">
+    <div className="max-w-5xl mx-auto p-10 section-min-height" id="contact">
       <h2 className="text-4xl mt-12 font-arima font-bold text-cherry">
         Contact
       </h2>
