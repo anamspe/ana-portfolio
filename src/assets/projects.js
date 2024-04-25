@@ -29,7 +29,7 @@ const projects = {
     img: "../../img/weather-app-crop.png",
     description:
       "This weather app created with the OpenWeather API allows user to search their city and check weather pertaining information, such as: weather temperature, wind speed, humidity, heat index, and sunrise and sunset times.",
-    repoLink: "https://github.com/anamspe/react-temp-app",
+    repoLink: "https://github.com/anamspe/weather-app",
     website: "https://elegant-macaron-6f91d4.netlify.app/",
     stack: ["react", "js", "html", "css", "bootstrap"],
   },
