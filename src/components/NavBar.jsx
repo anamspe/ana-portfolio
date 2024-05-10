@@ -12,9 +12,9 @@ const NavBar = () => {
             href="https://ana-game-portfolio.vercel.app/"
             target="_blank"
           >
-            <i className="fa-solid fa-gamepad text-3xl mt-3 hover:text-cherry-400 active:text-cherry-200 hover:ease-in-out transition-all duration-500"></i>
+            <i className="fa-solid fa-gamepad hidden md:block text-3xl mt-3 hover:text-cherry-400 active:text-cherry-200 hover:ease-in-out transition-all duration-500"></i>
           </a>
-      <nav className="flex gap-3 text-cherry content-center self-center font-bold" aria-label="main">
+      <nav className="hidden md:flex gap-3 text-cherry content-center self-center font-bold" aria-label="main">
         <a href="#projects" className="hover:bg-cadet-800 hover:text-tyrian hover:ease-in-out transition-all duration-500 px-3 py-2 rounded-full">Projects</a>
         <a href="#skills" className="hover:bg-cadet-800 hover:text-tyrian hover:ease-in-out transition-all duration-500 px-3 py-2 rounded-full">Skills</a>
         <a href="#about" className="hover:bg-cadet-800 hover:text-tyrian hover:ease-in-out transition-all duration-500 px-3 py-2 rounded-full">About Me</a>

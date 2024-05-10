@@ -3,7 +3,7 @@ import { Tooltip } from "react-tooltip";
 
 const SkillCategory = ({ title, skills }) => {
   return (
-    <div className="max-w-48 justify-center">
+    <div className="flex flex-wrap sm:block max-w-48 justify-center">
       <h2 className="mb-4 font-bold min-w-60">{title}</h2>
       <div className="flex flex-wrap justify-center">
         {skills.map((skill, index) => (
@@ -75,7 +75,7 @@ const Skills = () => {
       <span className="mx-6 pl-32 font-wellfleet">
         ▪ My technical abilities
       </span>
-      <div className="flex p-10 my-16 place-content-around bg-tyrian drop-shadow-sm shadow-paynes rounded-3xl">
+      <div className="flex flex-col sm:flex-row p-10 my-16 place-content-around bg-tyrian drop-shadow-sm shadow-paynes rounded-3xl">
         <SkillCategory
           title="Programming Languages"
           skills={programmingLanguages}
