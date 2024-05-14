@@ -69,7 +69,7 @@ const ContactForm = () => {
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)} noValidate>
-        <div className="flex flex-col gap-4 min-w-96">
+        <div className="flex flex-col gap-4 sm:min-w-96">
           <div className="sm:col-span-4">
             <label
               htmlFor="username"

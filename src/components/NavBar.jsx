@@ -21,9 +21,9 @@ const NavBar = () => {
       </nav>
 
       <section id="mobile-menu" className="bg-tyrian w-full text-5xl flex flex-col origin-top md:hidden">
-        <button id="hamburger-button" class="text-3xl cursor-pointer absolute top-0 right-0 mr-3 mt-3">
+        {/* <button id="hamburger-button" class="text-3xl cursor-pointer absolute top-0 right-0 mr-3 mt-3">
           &#9776;
-        </button>
+        </button> */}
       </section>
     </div>
   );

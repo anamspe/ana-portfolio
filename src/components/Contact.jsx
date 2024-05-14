@@ -16,7 +16,7 @@ const Contact = () => {
           <p className="mt-4">Github</p>
           <a href="https://github.com/anamspe" className="font-bold text-cherry-400 hover:text-cherry-300 active:text-cherry-200">@anamspe</a>
         </div>
-        <div className="w-full sm:w-1/2">
+        <div className="sm:w-1/2">
           <ContactForm />
         </div>
       </div>
