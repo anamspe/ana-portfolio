@@ -38,7 +38,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex mt-12 gap-6 justify-center">
+      <div className="flex flex-col sm:flex-row mt-12 gap-6 items-center sm:items-stretch  justify-center">
         <div className="p-6 bg-tyrian rounded-lg max-w-xs">
           <h2 className="text-xl text-bold font-wellfleet text-center">
             Journey & Identity
