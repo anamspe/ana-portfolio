@@ -1,14 +1,14 @@
 const HeroCard = () => {
   return (
-    <div className="flex gap-10 my-12 p-10 justify-center items-center section-min-height" id="hero">
-      <div className="text-base">
+    <div className="flex flex-col-reverse sm:flex-row gap-24 sm:gap-10 my-12 p-10 justify-center items-center section-min-height" id="hero">
+      <div className="text-base text-center sm:text-left">
         <p>Welcome! My name is</p>
         <p className="text-5xl font-bold font-arima py-2">Ana Franco</p>
 
-        <p className="w-2/3">
+        <p className="sm:w-2/3">
           I'm a Full Stack Software Developer based in Vancouver, Canada
         </p>
-        <div className="flex my-5 py-5 items-center text-3xl gap-5">
+        <div className="flex my-5 py-5 items-center justify-around sm:justify-normal text-5xl sm:text-4xl gap-5">
           <a href="https://github.com/anamspe" target="_blank" title="GitHub">
             <i className="fa-brands fa-github hover:text-cherry-400 active:text-cherry-200 hover:ease-in-out transition-all duration-500"></i>
           </a>
@@ -35,7 +35,7 @@ const HeroCard = () => {
         <img
           src="../../img/ana-profile.JPG"
           alt="Profile Ana Franco"
-          className="max-h-80 rounded-full"
+          className=" max-h-60 sm:max-h-80 rounded-full"
         />
       </div>
     </div>
