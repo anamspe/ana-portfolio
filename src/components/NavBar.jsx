@@ -1,8 +1,7 @@
 const NavBar = () => {
   return (
-    <div className="bg-tyrian flex justify-around sticky top-0 z-10">
-      <nav className="flex" aria-label="logo">
-        {/* <img src="../../img/AnaFrancoLogo.png" alt="" className="h-14"/> */}
+    <div className="bg-tyrian md:flex md:justify-around sticky top-0 z-10">
+      <nav className="grid text-center md:flex" aria-label="logo">
         <a href="#hero" className="font-arima font-bold text-3xl p-3">
           {/* <span className="text-2xl font-emoji">👩‍💻</span>  */}
           Ana Franco 
@@ -20,6 +19,12 @@ const NavBar = () => {
         <a href="#about" className="hover:bg-cadet-800 hover:text-tyrian hover:ease-in-out transition-all duration-500 px-3 py-2 rounded-full">About Me</a>
         <a href="#contact" className="hover:bg-cadet-800 hover:text-tyrian hover:ease-in-out transition-all duration-500 px-3 py-2 rounded-full">Contact</a>
       </nav>
+
+      <section id="mobile-menu" className="bg-tyrian w-full text-5xl flex flex-col origin-top md:hidden">
+        <button id="hamburger-button" class="text-3xl cursor-pointer absolute top-0 right-0 mr-3 mt-3">
+          &#9776;
+        </button>
+      </section>
     </div>
   );
 };
