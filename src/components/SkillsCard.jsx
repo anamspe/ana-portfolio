@@ -69,7 +69,7 @@ const Skills = () => {
 
   return (
     <div
-      className="max-w-7xl mx-auto my-5 p-10 content-center scroll-mt-20 section-min-height"
+      className="max-w-7xl mx-auto my-5 p-10 content-center scroll-mt-12 section-min-height"
       id="skills"
     >
       <h2 className="text-4xl sm:pl-32 font-arima font-bold text-cherry">
