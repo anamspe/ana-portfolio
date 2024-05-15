@@ -8,16 +8,16 @@ const Project = () => {
     const project = projects[item];
 
     return (
-      <div key={item} className="flex p-4 gap-5">
-        <div className="w-1/3">
+      <div key={item} className="flex flex-col sm:flex-row p-4 gap-5">
+        <div className="sm:w-1/3">
           <img
             src={project.img}
             alt={project.name}
             className="h-60 w-full rounded-lg m-2 border-2 border-cherry-400"
           />
         </div>
-        <div className="w-2/3">
-          <h1 className="text-2xl mb-2">{project.name}</h1>
+        <div className="sm:w-2/3">
+          <h1 className="text-2xl text-center sm:text-left mb-2">{project.name}</h1>
           <p className="mb-6">{project.description}</p>
           {project.website && (
             <a
