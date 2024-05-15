@@ -1,7 +1,7 @@
 const HeroCard = () => {
   return (
     <div
-      className="flex flex-col-reverse sm:flex-row gap-16 sm:gap-10 sm:my-12 p-10 justify-center items-center section-min-height scroll-mt-20"
+      className="flex flex-col-reverse sm:flex-row gap-10 sm:my-12 p-10 justify-center items-center section-min-height scroll-mt-20"
       id="hero"
     >
       <i className="fa-solid fa-circle-arrow-down text-2xl animate-bounce sm:hidden"></i>
