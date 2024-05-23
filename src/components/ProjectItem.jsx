@@ -45,7 +45,6 @@ const Project = () => {
                   className="size-9 bg-cadet-700 bg-opacity-20 mr-2 p-1 rounded"
                   src={icons[tech]?.src}
                   alt={icons[tech]?.alt}
-                  title={icons[tech]?.alt}
                   data-tooltip-id="skill-tt"
                   data-tooltip-content={icons[tech]?.alt}
                   data-tooltip-delay-show={300}

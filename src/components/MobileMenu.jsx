@@ -6,7 +6,7 @@ const MobileMenu = ({ isOpen, toggleMenu }) => {
     >
       <i className="fa-solid fa-xmark fixed top-7 right-7 active:text-cherry-400" onClick={toggleMenu}></i>
       <nav className="flex flex-col gap-5 mt-20">
-        <a href="/" className="text-white active:text-cherry-400" onClick={toggleMenu}>
+        <a href="#hero" className="text-white active:text-cherry-400" onClick={toggleMenu}>
           Home
         </a>
         <a href="#projects" className="text-white active:text-cherry-400" onClick={toggleMenu}>

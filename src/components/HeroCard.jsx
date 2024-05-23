@@ -24,7 +24,7 @@ const HeroCard = () => {
             <i className="fa-brands fa-linkedin hover:text-cherry-400 active:text-cherry-200 hover:ease-in-out transition-all duration-500"></i>
           </a>
           <a
-            href="https://huntr.co/view-document/6644246eca5cc1006e66e9f3?candidateId=65b83f4ee5fd7b006e26cfc3"
+            href="https://drive.google.com/file/d/1Muk692gikVVXta1lEkMU4Vb4hHTSjaTw/view?usp=sharing"
             target="_blank"
             title="Resume"
           >
