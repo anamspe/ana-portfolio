@@ -1,4 +1,13 @@
+import { useState } from "react";
+import MobileMenu from "./MobileMenu";
+
 const NavBar = () => {
+
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
   return (
     <div className="bg-tyrian md:flex md:justify-around sticky top-0 z-10">
       <nav className="grid text-center md:flex" aria-label="logo">
@@ -20,11 +29,15 @@ const NavBar = () => {
         <a href="#contact" className="hover:bg-cadet-800 hover:text-tyrian hover:ease-in-out transition-all duration-500 px-3 py-2 rounded-full">Contact</a>
       </nav>
 
-      <section id="mobile-menu" className="bg-tyrian w-full text-5xl flex flex-col origin-top md:hidden">
-        {/* <button id="hamburger-button" class="text-3xl cursor-pointer absolute top-0 right-0 mr-3 mt-3">
-          &#9776;
-        </button> */}
-      </section>
+    <button
+        id="hamburger-button"
+        className="text-3xl cursor-pointer md:hidden absolute top-0 right-0 mr-3 mt-3"
+        onClick={toggleMobileMenu}
+      >
+        &#9776;
+      </button>
+      <MobileMenu isOpen={isMobileMenuOpen} toggleMenu={toggleMobileMenu} />
+
     </div>
   );
 };
