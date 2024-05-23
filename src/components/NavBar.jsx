@@ -8,11 +8,11 @@ const NavBar = () => {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
+
   return (
     <div className="bg-tyrian md:flex md:justify-around sticky top-0 z-10">
       <nav className="grid text-center md:flex" aria-label="logo">
-        <a href="#hero" className="font-arima font-bold text-3xl p-3">
-          {/* <span className="text-2xl font-emoji">👩‍💻</span>  */}
+        <a href="/" className="font-arima font-bold text-3xl p-3">
           Ana Franco 
         </a>
       </nav>
