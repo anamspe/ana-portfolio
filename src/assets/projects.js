@@ -1,5 +1,14 @@
-const projects = {
-  1: {
+const projects = [
+  {
+    name: "Ana's Hut",
+    img: "../../img/game-portfolio.png",
+    description:
+      "This is a Game Portfolio created with HTML, CSS, JavaScript and the Kaboom.JS Library. It has a responsive design and allows the user to walk around in a house with several interactive points.",
+    repoLink: "https://github.com/anamspe/game-portfolio",
+    website: "https://ana-game-portfolio.vercel.app/",
+    stack: ["html", "css", "js"],
+  },
+  {
     name: "Acme Rockets",
     img: "../../img/acme-rockets.png",
     description:
@@ -8,7 +17,7 @@ const projects = {
     website: "https://acmerockets-erim.onrender.com/",
     stack: ["html", "tailwindcss", "js"],
   },
-  2: {
+  {
     name: "DateSync",
     img: "../../img/datesync-crop.png",
     description:
@@ -16,7 +25,7 @@ const projects = {
     repoLink: "https://github.com/anamspe/datesync",
     stack: ["react", "js", "node", "express", "postgresql", "materialui", "sass"],
   },
-  3: {
+  {
     name: "HaggleHub",
     img: "../../img/hagglehub-crop.png",
     description:
@@ -24,7 +33,7 @@ const projects = {
     repoLink: "https://github.com/anamspe/Hagglehub",
     stack: ["js", "ejs", "node", "express", "postgresql", "sass"],
   },
-  4: {
+  {
     name: "WeatherApp",
     img: "../../img/weather-app-crop.png",
     description:
@@ -33,7 +42,7 @@ const projects = {
     website: "https://elegant-macaron-6f91d4.netlify.app/",
     stack: ["react", "js", "html", "css", "bootstrap"],
   },
-  5: {
+  {
     name: "TinyApp",
     img: "../../img/tinyapp-crop.png",
     description:
@@ -41,6 +50,6 @@ const projects = {
     repoLink: "https://github.com/anamspe/tinyapp",
     stack: ["js", "ejs", "html", "css", "node", "express"],
   },
-};
+];
 
 export default projects;
