@@ -3,25 +3,24 @@ import icons from "../assets/icons";
 import { Tooltip } from "react-tooltip";
 
 const Project = () => {
-  const projectsKeys = Object.keys(projects);
-  const projectSection = projectsKeys.map((item) => {
-    const project = projects[item];
-
+  const projectSection = projects.map((item, index) => {
     return (
-      <div key={item} className="flex flex-col sm:flex-row p-4 gap-5">
+      <div key={index} className="flex flex-col sm:flex-row p-4 gap-5">
         <div className="sm:w-1/3">
           <img
-            src={project.img}
-            alt={project.name}
+            src={item.img}
+            alt={item.name}
             className="h-60 w-full rounded-lg m-2 border-2 border-cherry-400"
           />
         </div>
         <div className="sm:w-2/3">
-          <h1 className="text-2xl text-center sm:text-left mb-2">{project.name}</h1>
-          <p className="mb-6">{project.description}</p>
-          {project.website && (
+          <h1 className="text-2xl text-center sm:text-left mb-2">
+            {item.name}
+          </h1>
+          <p className="mb-6">{item.description}</p>
+          {item.website && (
             <a
-              href={project.website}
+              href={item.website}
               className="bg-tyrian hover:bg-tyrian-600 active:bg-tyrian-800 p-2 mr-2 rounded-md hover:ease-in-out transition-all duration-500"
               target="_blank"
             >
@@ -29,14 +28,14 @@ const Project = () => {
             </a>
           )}
           <a
-            href={project.repoLink}
+            href={item.repoLink}
             className="bg-tyrian hover:bg-tyrian-600 active:bg-tyrian-800 p-2 rounded-md hover:ease-in-out transition-all duration-500"
             target="_blank"
           >
             Repo
           </a>
           <ul className="mt-5">
-            {project.stack.map((tech, index) => (
+            {item.stack.map((tech, index) => (
               <li
                 key={index}
                 className="display: inline-block transition-all duration-500 ease-in-out hover:opacity-70"
